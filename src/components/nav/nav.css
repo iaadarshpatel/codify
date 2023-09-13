@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Rubik:wght@500;600;700;800;900&display=swap');
+
+.logo a{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    color: #1e2a5a ;
+}
+
+.navbar-bg{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+    transition: 0.4s, all 0.3s linear;
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--bgcolor);
+    max-height: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--text-color);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--logo-primary-color);
+}
+
+.navbar{
+    max-height: 80px;
+}
+
+.navbar li{
+    margin-right: 40px;
+}
+
+.navbar li a{
+    font: 500 14px/80px "Rubik", sans-serif;
+}
+
+.navbar li a:hover{
+    color: var(--logo-color)!important;
+}
+
+.btn-outline-success{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);    
+}
+
+.btn-outline-success:hover{
+    border: 1px solid var(--bgcolor);
+    background: var(--logo-color);
+    color: var(--text-color);
+}
+
+.navbar{
+    background-color: transparent;
+}
+  
+.navbar.colorChange{
+    transition: all 0.5s ease 0s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.show{
+    background: cadetblue;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+
+/* =============== MEDIA QUERIES (LARGE DEVICES) ==============*/
+@media screen and (min-width: 990px) and (max-width: 1024px) {
+   
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+@media screen and (max-width: 500px){
+     
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
+@media screen and (max-width: 400px){
+
+}
+
+

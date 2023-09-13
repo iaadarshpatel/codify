@@ -1,0 +1,99 @@
+.mySwiper{
+    zoom: 80%;
+}
+
+.mySlide{
+    width: 100%;
+}
+
+.banner-text{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    text-align: center!important;
+    top: 35%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev::after{
+    color: var(--logo-primary-color);
+
+}
+
+.swiper-button-next::after{
+    color: var(--logo-primary-color);
+}
+
+.text-center p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: #002347;
+    font-weight: 500;
+}
+
+.text-center h2{
+    font-size: 3rem;
+    margin: 1.5rem 0rem 1rem;
+    font-family: "Rubik", sans-serif;
+    color: #002347;
+    font-weight: 500;
+    text-transform: uppercase!important;
+}
+
+
+
+/* =============== MEDIA QUERIES (LARGE DEVICES) ==============*/
+@media screen and (min-width: 990px) and (max-width: 1024px) 
+{
+   .container{
+       width: 100%;
+   }
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+@media screen and (max-width: 850px){
+    .mySwiper{
+        zoom: 55%;
+    }
+    .text-center p{
+        font-size: 1.8rem;
+
+    }
+    .text-center h2{
+        font-size: 4.3rem;
+    }
+}
+
+/* =============== MEDIA QUERIES (MEDIUM & SMALL DEVICES) ==============*/
+@media screen and (max-width: 600px){
+    .mySwiper{
+        zoom: 40%;
+    }
+    .text-center p{
+        font-size: 2rem;
+
+    }
+    .text-center h2{
+        font-size: 4.8rem;
+    }
+
+    
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
+@media screen and (max-width: 400px){
+    .container{
+        width: var(--container-width-sm);
+    }
+    .mySwiper{
+        zoom: 35%;
+    }
+    .text-center h2{
+        font-size: 4.2rem;
+    }
+}
